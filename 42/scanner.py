@@ -1,4 +1,4 @@
-from socket import *
+from socket import gethostbyname, socket, SOCK_STREAM, AF_INET
 
 target = input('Enter the host to scan: ')
 port = input("Enter port to scan: ")
